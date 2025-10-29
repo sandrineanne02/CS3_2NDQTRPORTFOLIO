@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image-half, .text-half {
+        max-width: 100%;
+    }
+    .text-half {
+        padding-right: 0;
+    }
+    .text-half iframe {
+        height: 315px;
+    }
+    main {
+        width: 95%;
+        padding: 10px;
+    }
+}
